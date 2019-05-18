@@ -9,12 +9,12 @@
 
 <p align="center"><img alt="Teaser" src="doc/teaser.jpg"></p>
 
-# Dataset
-## NOTE: Please download and extract the dataset under directory `PhotoSketch/`
+## Dataset
+### NOTE: Please download and extract the dataset under directory `PhotoSketch/`
 
-### https://drive.google.com/open?id=1ajNGbYSSxWZyCT3X4qlga7maUz6UZ3nD
+#### https://drive.google.com/open?id=1ajNGbYSSxWZyCT3X4qlga7maUz6UZ3nD
 
-# Setting up on Brown CCV
+## Setting up on Brown CCV
 
 1. Load Anaconda3-5.2.0
 
@@ -33,13 +33,13 @@ conda env create -f environment.yml
 source activate sketch
 ```
 
-# Running Instructions
-## NOTE: All srcipts should be executed under directory `PhotoSketch/`
-## Train model
+## Running Instructions
+### NOTE: All srcipts should be executed under directory `PhotoSketch/`
+### Train model
 ```
 sbatch cuda.sh
 ```
-## Test model
+### Test model
 1. Request a GPU node
 ```
 interact -n 16 -m 16g -q gpu -g 1
